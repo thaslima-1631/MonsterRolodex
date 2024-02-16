@@ -1,0 +1,102 @@
+
+body{
+  background:linear-gradient(
+    to left,
+    rgb(82, 16, 7)0%,
+    rgb(69, 39, 83)60%
+  );
+}
+
+.App {
+  text-align: center;
+  margin-left:55px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.search-box{
+  -webkit-appearance: none;
+  border: null;
+  outline:null;
+  padding: 20px;
+  height: 50px;
+  text-align: center;
+}
+.searchField{
+  padding-bottom: 40PX;
+}
+
+.card-list{
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap:35px;
+  width: 85vw;
+  
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  
+  background:linear-gradient(
+    to left,
+    rgb(28, 82, 7)0%,
+    rgb(213, 216, 173)60%
+  );
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.Heading{
+  color: rgb(213, 216, 173);
+  margin-top: 35px ;
+  margin-bottom: 20px;
+  font-size: 56px;
+  font-family: 'creepster';
+}
+.details, .search-box
+{
+  font-family: 'creepster';
+}
