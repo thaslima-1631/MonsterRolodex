@@ -1,2 +1,2 @@
 # MonsterRolodex
-Monster Rolodex 
+Monster Rolodex Demo React Project
